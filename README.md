@@ -75,6 +75,18 @@ pip install -r requirements.txt
 
 Pastikan versi library kompatibel dengan kode proyek yang digunakan.
 
+## Train the CNN Model
+
+Untuk melatik model, jalankan:
+
+```bash
+python train_model.py
+```
+
+Script akan memuat dataset EMNIST Digits, melakukan preprocessing, melatih model CNN, mengevaluasi performanya, dan menyimpan model hasil pelatihan sebagai `digit_model.keras`.
+
+**Note:** Pelatihan membutuhkan koneksi internet saat dataset pertama kali diunduh, ruang penyimpanan yang cukup, serta waktu komputasi. Jika model yang sudah dilatih tersedia, kamu tidak perlu melatih ulang untuk menjalankan aplikasi.
+
 ## How to Run the Application
 
 Pastikan file `digit_model.keras` tersedia di folder proyek. Kemudian jalankan:
@@ -85,17 +97,6 @@ streamlit run app.py
 
 Streamlit akan menampilkan alamat lokal di terminal. Buka alamat tersebut di browser untuk menggunakan aplikasi.
 
-## Train the CNN Model
-
-Jika ingin melatih model dari awal, jalankan:
-
-```bash
-python train_model.py
-```
-
-Script akan memuat dataset EMNIST Digits, melakukan preprocessing, melatih model CNN, mengevaluasi performanya, dan menyimpan model hasil pelatihan sebagai `digit_model.keras`.
-
-**Note:** Pelatihan membutuhkan koneksi internet saat dataset pertama kali diunduh, ruang penyimpanan yang cukup, serta waktu komputasi. Jika model yang sudah dilatih tersedia, kamu tidak perlu melatih ulang untuk menjalankan aplikasi.
 
 ## How It Works
 
