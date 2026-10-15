@@ -7,11 +7,11 @@ Aplikasi web untuk mengenali angka tulisan tangan (0–9) menggunakan **Convolut
 Proyek ini dibuat untuk mempelajari penerapan Deep Learning dalam pengenalan citra digital serta mengimplementasikan model Machine Learning ke dalam aplikasi web interaktif.
 
 Fitur utama:
-- ✍️ Menggambar angka secara langsung pada canvas.
-- 🤖 Mengenali angka 0 sampai 9 menggunakan model CNN.
-- 📊 Menampilkan hasil prediksi dan probabilitas setiap kelas angka.
-- 🧠 Melatih model menggunakan dataset EMNIST Digits.
-- 🌐 Menjalankan model melalui antarmuka web berbasis Streamlit.
+- Menggambar angka secara langsung pada canvas.
+- Mengenali angka 0 sampai 9 menggunakan model CNN.
+- Menampilkan hasil prediksi dan probabilitas setiap kelas angka.
+- Melatih model menggunakan dataset EMNIST Digits.
+- Menjalankan model melalui antarmuka web berbasis Streamlit.
 
 ## Technologies Used
 
