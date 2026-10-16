@@ -4,7 +4,7 @@ Aplikasi web untuk mengenali angka tulisan tangan (0–9) menggunakan **Convolut
 
 ## Project Overview
 
-Proyek ini dibuat untuk mempelajari penerapan Deep Learning dalam pengenalan citra digital serta mengimplementasikan model Machine Learning ke dalam aplikasi web interaktif.
+Proyek kecil ini saya buat sebagai latihan untuk mata kuliah Machine Learning. Melalui proyek ini, saya ingin belajar dan memahami lebih jauh bagaimana Deep Learning dapat digunakan untuk mengenali citra digital serta menerapkannya ke dalam aplikasi web interaktif.
 
 Fitur utama:
 - Menggambar angka secara langsung pada canvas.
@@ -142,4 +142,4 @@ GitHub: [@ikanterbang2424](https://github.com/ikanterbang2424)
 
 ---
 
-*This project is developed for educational purposes to explore image classification, deep learning, and interactive web application development.*
+*This is a small personal project I created as an exercise for my Machine Learning course. Through this project, I wanted to learn more about how Deep Learning can be used for digital image recognition and implemented in an interactive web application.*
